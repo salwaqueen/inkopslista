@@ -7,6 +7,10 @@ List<int> prices = new List<int>();
 while (true)
 {
     Console.WriteLine("\n--- Inköpslista ---");
+    if (names.Count == 0)
+{
+    Console.WriteLine("Inköpslistan är tom.");
+}
 
     long total = 0;
 
